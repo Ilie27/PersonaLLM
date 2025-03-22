@@ -15,14 +15,14 @@ interface ChatInputProps {
 
 const suggestedActions = [
     {
-        title: 'How is the weather',
-        label: 'in Vienna?',
-        action: 'How is the weather in Vienna today?',
+        title: 'When is my lunch',
+        label: 'with Victoria?',
+        action: 'When is my lunch with Victoria?',
     },
     {
-        title: 'Tell me a fun fact',
-        label: 'about pandas',
-        action: 'Tell me an interesting fact about pandas',
+        title: 'Who confirmed they',
+        label: 'are coming to the meeting?',
+        action: 'Who confirmed they are coming to the meeting?',
     },
 ];
 
@@ -68,7 +68,7 @@ export const ChatInput = ({ question, setQuestion, onSubmit, isLoading }: ChatIn
         />
 
         <Textarea
-        placeholder="Send a message..."
+        placeholder="Ask something about your database..."
         className={cx(
             'min-h-[24px] max-h-[calc(75dvh)] overflow-hidden resize-none rounded-xl text-base bg-muted',
         )}

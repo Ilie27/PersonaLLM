@@ -14,14 +14,15 @@ export const Overview = () => {
     >
       <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
         <p className="flex flex-row justify-center gap-4 items-center">
-          <BotIcon size={44}/>
+          {/* <BotIcon size={44}/>
           <span>+</span>
-          <MessageCircle size={44}/>
+          <MessageCircle size={44}/> */}
+          <img src="src/assets/logo.png" alt="logo" width={170} />
         </p>
         <p>
-          Welcome to <strong>chatbot-ui</strong><br />
-          a open source template made by<br />
-          <strong>Leon Binder</strong> and <strong>Christoph Handschuh</strong>.
+        <span style={{fontSize: "56px", color:"red"}}>
+          <strong>PERSONALLM</strong></span><br />
+          <span style={{fontSize: "24px"}}>YOUR AI MEMORY KEEPER</span>
         </p>
       </div>
     </motion.div>
