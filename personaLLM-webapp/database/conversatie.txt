@@ -1,0 +1,29 @@
+Ana: Hey, Alex! How are you? We haven’t seen each other in a while.
+
+Alex: Hey, Ana! It’s great to see you. I’m doing well, how about you? How’s university going?
+
+Ana: It’s going pretty well, but I’ve had some tough projects this month. What about you? Still at that new job?
+
+Alex: Yeah, I’m still there. I like it, but it’s quite demanding. I keep learning new things every day.
+
+Ana: That’s great! It’s important to be in a place where you can grow. Do you still have time for yourself?
+
+Alex: Not much, but I’m trying to manage my time better. What about you? What else are you up to besides university?
+
+Ana: I’m working on a volunteer project and trying to read more. I found a really interesting book.
+
+Alex: That sounds nice! What book? Maybe you can recommend it to me.
+
+Ana: It’s called Sapiens by Yuval Noah Harari. It’s about the history of humankind and how we got to where we are today.
+
+Alex: I’ve heard of it but haven’t read it yet. Maybe I should give it a try.
+
+Ana: You definitely should! By the way, do you want to grab a coffee and catch up?
+
+Alex: Sure! When are you free?
+
+Ana: Maybe tomorrow afternoon?
+
+Alex: Sounds perfect! See you then.
+
+Ana: Great, see you tomorrow!

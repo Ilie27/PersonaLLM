@@ -6,7 +6,7 @@ import os
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, Response
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import shutil
@@ -48,7 +48,10 @@ async def upload_file(file: UploadFile = File(...)):
         MEMORY_CONTEXT = f.read()
         has_uploaded_file = True
 
-    return {"status": "success", "filename": file.filename}
+    return Response(
+        content="File uploaded successfully. Context is now active.",
+        media_type="text/plain"
+    )
 
 async def echo(websocket):
     try:
@@ -76,10 +79,15 @@ Below is context from a recently uploaded document:
 User's question:
 {message}
 
-Please answer the question based on the provided context.
+Please answer the question based on the provided context in a friendly, helpful, and respectful tone. Avoid sarcasm, negativity, or judgment. Be as kind and supportive as possible.
 """
             else:
-                prompt = message
+                prompt = f"""
+User's message:
+{message}
+
+Please respond in a friendly, helpful, and respectful tone. Avoid sarcasm, negativity, or judgment. Be as kind and supportive as possible.
+"""
 
             # Use existing session for contextual memory
             chat = sessions[websocket]
@@ -109,6 +117,5 @@ async def main():
         print("WebSocket server running on port 8090", flush=True)
         await fastapi_server.serve()
 
-        
 if __name__ == "__main__":
     asyncio.run(main())
