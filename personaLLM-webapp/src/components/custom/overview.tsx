@@ -21,7 +21,7 @@ export const Overview = () => {
         </p>
         <p>
         <span style={{fontSize: "56px", color:"red"}}>
-          <strong>PERSONALLM</strong></span><br />
+          <strong>PersonaLLM</strong></span><br />
           <span style={{fontSize: "24px"}}>YOUR AI MEMORY KEEPER</span>
         </p>
       </div>
