@@ -3,3 +3,5 @@ venv/
 dist/
 __pycache__/
 *.env
+vite.config.ts/
+.vite/
