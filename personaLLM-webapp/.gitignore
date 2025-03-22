@@ -1,0 +1,8 @@
+node_modules/
+venv/
+dist/
+__pycache__/
+*.env
+vite.config.ts/
+.vite/
+package-lock.json
