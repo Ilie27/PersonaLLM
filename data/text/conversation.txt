@@ -1,0 +1,53 @@
+conversation1 = """Emma: (smiling as she stirs her latte) I still can't believe we're finally catching up after all these years. It feels like just yesterday we were cramming for finals in the library.
+
+Jake: (laughs, taking a sip of his black coffee) I know, right? Life really pulled us in different directions. What’s it been, five years?
+
+Emma: Almost six! Crazy. So, tell me, how’s the whole journalism thing going? Last I heard, you were covering stories overseas.
+
+Jake: (nods, leaning back in his chair) Yeah, it’s been a whirlwind. I spent two years in South America, reporting on political protests. Then, I moved to New York—big change from our little college town.
+
+Emma: Wow, that sounds intense. And here I am, still in this city, teaching high school literature.
+
+Jake: Hey, don’t sell yourself short! That’s amazing. You’re shaping young minds. I bet your students love you.
+
+Emma: (chuckles) Some of them, maybe. Others just tolerate me. But I love it. I get to introduce them to stories that make them think, challenge their perspectives.
+
+Jake: (grinning) That sounds exactly like you. Always the one pushing people to see the world in a different way.
+
+Emma: Speaking of different perspectives, tell me… do you ever regret leaving?
+
+Jake: (pauses, looking out the window at the rain-soaked street) Sometimes. The travel, the stories—it’s exhilarating. But there are moments, like now, where I realize how much I’ve missed. The little things. Like coffee with an old friend.
+
+Emma: (softly) Well, you’re here now. That’s what matters.
+
+Jake: (smiles, raising his cup) To old friends and new conversations.
+
+Emma: (clinking her mug against his) To that."""
+
+conversation2 = """Liam: (leaning against the café counter) I never thought I’d run into you here. What are the odds?  
+
+Sophie: (laughing as she stirs her tea) Right? It’s been what, seven years? You look... different. In a good way.  
+
+Liam: (grinning) I’ll take that as a compliment. Life tends to change people. How have you been?  
+
+Sophie: Busy. Work, life, the usual. I opened my own bakery last year, actually.  
+
+Liam: (raising an eyebrow) No way! That’s amazing. I remember you always baking during finals week. You kept half the dorm alive with those cookies.  
+
+Sophie: (chuckling) Guilty as charged. But what about you? Last I heard, you were traveling the world with just a backpack and a camera.  
+
+Liam: (sighs, sipping his coffee) Yeah, I spent a few years hopping around. Photography gigs here and there. But eventually, I realized I needed some roots. Moved back last spring.  
+
+Sophie: (smiling) So, you’re back for good?  
+
+Liam: Looks like it. Feels strange, though. Everything’s familiar but... different.  
+
+Sophie: (nodding) I get that. Sometimes, coming home feels like stepping into a memory.  
+
+Liam: Exactly. But hey, maybe it’s not so bad. I mean, I did run into an old friend.  
+
+Sophie: (grinning) Maybe it’s a sign.  
+
+Liam: (raising his cup) To new chapters and old friends.  
+
+Sophie: (clinking her mug against his) To that."""

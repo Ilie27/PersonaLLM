@@ -143,5 +143,5 @@ def get_llm_response_gemini(prompt: str, threshold: float = 0.1, limit: int = 3)
         print(f"Error while querying Gemini: {e}")
         return None
 
-prompt="What is the main topic of the conversation?"
-print(get_llm_response_gemini(prompt, threshold=0.1, limit=3))
+prompt="What drink does Jake drink?"
+print(get_llm_response_gemini(prompt, threshold=0.2, limit=3))
