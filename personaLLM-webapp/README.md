@@ -1,58 +1,46 @@
-# Chatbot UI
+# AI Memory Keeper 🧠
 
-A lightweight and modern chat interface for LLM interactions with Markdown support!
+A minimalist, Gemini-powered chatbot that remembers.  
+Upload notes, WhatsApp conversations, or journal entries — then ask questions like “When am I meeting with Alex?” or “What did I say to Victoria last week?”
 
-## Overview
+Built using `chatbot-ui` as the frontend, and a custom Python backend that connects to Google's Gemini API, with vector search-based memory.
 
-A minimalist chat interface built with React and TypeScript, designed to be easily integrated with any LLM backend. Features a clean and modern design.
+---
 
-![Demo](demo/image.png)
+Upload notes, WhatsApp conversations, or journal entries — then ask natural questions like:  
+> "When am I meeting with Alex?"  
+> "What did I say to Victoria last week?"  
+> "Who confirmed for the meeting?"
 
-## Getting Started
+## ✨ Features
 
-1. Clone the repository
+- ✅ Chat interface powered by Gemini 1.5 (via WebSocket)
+- 🧠 Context-aware answers using your uploaded files
+- 📎 Upload `.txt` or `.md` files (notes, WhatsApp chats, etc.)
+- 💬 Real-time WebSocket responses with `[END]` signal
+- 🗃️ FAISS vector search for memory retrieval
+- 🧾 Markdown + multi-turn conversation support
+- 🔁 Session memory (remembers past messages)
+- 🔧 Easy to self-host and extend
+
+---# PersonaLLM 🧠  
+
+
+## 🛠️ Getting Started
+
+Clone the project and move into the app folder:
+
 ```bash
-git clone https://github.com/ChristophHandschuh/chatbot-ui.git
-cd chatbot-ui
-```
+git clone https://github.com/Ilie27/personaLLM.git
+to run:
+cd personaLLM-webapp
 
-2. Install dependencies
-```bash
-npm i
-```
-
-3. Start the development server
-```bash
-npm run dev
-```
-
-## Test Mode
-
-The project includes a test backend for development and testing purposes. To use the test mode:
-
-1. Navigate to the testbackend directory
-2. Create a Python virtual environment:
-```bash
+Backend:
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```
-3. Install the required package:
-```bash
-pip install websockets
-```
-4. Run the test backend:
-```bash
-python test.py
-```
+source venv/bin/activate
+pip install -r requirements.txt
+python backend.py
 
-## Credits
-
-This project was built by:
-- [Leon Binder](https://github.com/LeonBinder)
-- [Christoph Handschuh](https://github.com/ChristophHandschuh)
-
-Some code components were inspired by and adapted from [Vercel's AI Chatbot](https://github.com/vercel/ai-chatbot).
-
-## License
-
-This project is licensed under the Apache License 2.0. Please note that some components were adapted from Vercel's open source AI Chatbot project.
+Backend:
+npm i
+npm start dev
