@@ -35,12 +35,16 @@ git clone https://github.com/Ilie27/personaLLM.git
 to run:
 cd personaLLM-webapp
 
+# also create your .env file here, example:
+# export GEMINI_API_KEY="API_KEY"
+# PORT=8090
+
 Backend:
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python backend.py
 
-Backend:
+Frontend:
 npm i
 npm start dev
