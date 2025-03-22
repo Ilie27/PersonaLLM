@@ -47,4 +47,4 @@ python backend.py
 
 Frontend:
 npm i
-npm start dev
+npm run dev
