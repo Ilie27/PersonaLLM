@@ -79,7 +79,7 @@ Below is context from a recently uploaded document:
 User's question:
 {message}
 
-Please answer the question based on the provided context in a friendly, helpful, and respectful tone. Avoid sarcasm, negativity, or judgment. Be as kind and supportive as possible.
+Please answer the question based on the provided context and any other information you have about the user in a friendly, helpful, and respectful tone. Avoid sarcasm, negativity, or judgment. Be as kind and supportive as possible.
 """
             else:
                 prompt = f"""
